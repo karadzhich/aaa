@@ -1,0 +1,15 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}% указание кодировки исходного текста
+\usepackage[english,russian]{babel} %используемые языки. Активизирован последний из списка.
+\usepackage{amsthm}
+\newtheorem{theo}{Теорема}
+\begin{document}
+\begin{theo}[косинусов]
+Для $a$, $b$, $c$ и углом $\alpha$, противолежащим стороне $a$, справедливо соотношение:
+\begin{equation}\label{frm}
+a^2 = b^2 + c^2 - 2 \cdot b \cdot c \cdot \cos\,\alpha.
+\end{equation}
+Квадрат стороны треугольника равен сумме квадратов двух других сторон минус удвоенное произведенние этих сторон на косинус угла между ними.
+Ссылка на формулу: \ref{frm}
+\end{theo}
+\end{document}
